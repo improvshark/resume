@@ -57,6 +57,9 @@ section {
 	column-gap: 2rem;
 	align-items: end;
 }
+.grid p {
+	margin: 0.3rem 0;
+}
 
 /* typography */
 h2 {
