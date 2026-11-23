@@ -1,0 +1,25 @@
+/* Liberation Sans, SIL OFL 1.1: see fonts/LICENSE */
+@font-face {
+	font-family: "Resume Sans";
+	src: url("fonts/LiberationSans-Regular.woff2") format("woff2");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Resume Sans";
+	src: url("fonts/LiberationSans-Bold.woff2") format("woff2");
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Resume Sans";
+	src: url("fonts/LiberationSans-Italic.woff2") format("woff2");
+	font-weight: 400;
+	font-style: italic;
+}
+@font-face {
+	font-family: "Resume Sans";
+	src: url("fonts/LiberationSans-BoldItalic.woff2") format("woff2");
+	font-weight: 700;
+	font-style: italic;
+}

@@ -17,7 +17,7 @@ html {
 }
 
 body {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: "Resume Sans", Arial, Helvetica, sans-serif;
 	font-size: 1.3333rem;
 }
 
@@ -31,6 +31,9 @@ body {
 .header > * {
 	margin: 1rem 0;
 }
+.header > :first-child {
+	margin-top: 0;
+}
 
 .header h1,
 .header h2,
@@ -41,6 +44,24 @@ body {
 
 article header p {
 	margin-top: 1rem;
+}
+
+.header .role {
+	font-size: 1.5em;
+	margin: 1rem 0 0 0;
+}
+
+.header address {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 1.01em;
+	line-height: 2.4;
+	margin-bottom: -0.8rem;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
 }
 
 /* other */
@@ -57,8 +78,13 @@ section {
 	column-gap: 2rem;
 	align-items: end;
 }
-.grid p {
+.grid dt,
+.grid dd {
 	margin: 0.3rem 0;
+}
+.grid dt {
+	font-weight: bold;
+	font-size: 1.01em;
 }
 
 /* typography */
@@ -77,8 +103,31 @@ h3 i {
 }
 
 p,
-ul {
+ul,
+dl {
 	margin: 0;
+}
+
+.dates {
+	font-weight: bold;
+	font-size: 1.01em;
+	margin: 0.3rem 0;
+	text-align: right;
+	white-space: nowrap;
+}
+
+ul {
+	list-style: none;
+	padding-left: 4rem;
+}
+li {
+	text-indent: -1.1em;
+}
+li::before {
+	content: "\2022";
+	display: inline-block;
+	width: 1.1em;
+	text-indent: 0;
 }
 
 /* Utilitys */

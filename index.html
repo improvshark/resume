@@ -9,9 +9,10 @@
   <title>Stephen Boettcher</title>
   <meta name="description" content="Resume">
   <meta name="author" content="improvshark">
-  <link rel="stylesheet" href="https://unpkg.com/normalize.css@8.0.1/normalize.css">
-  <link rel="stylesheet" href="static/print.css?v=1.0">
-  <link rel="stylesheet" href="static/styles.css?v=1.0">
+  <link rel="stylesheet" href="static/normalize.css">
+  <link rel="stylesheet" href="static/fonts.css">
+  <link rel="stylesheet" href="static/print.css?v=2.0">
+  <link rel="stylesheet" href="static/styles.css?v=2.0">
   
 </head>
 
@@ -19,13 +20,15 @@
   
 <article class="sheet padding-25mm">
 	<header class="header">
-		<div class="flex-space-between no-top-margin">
-			<h1>Stephen Boettcher</h1>
-			<h3 class="align-right">(801) 824-4030</h3>
-		</div>
 		<div class="flex-space-between">
-			<h2>Full-Stack Software Engineer</h2>
-			<h3 class="align-right">improvshark@gmail.com</h3>
+			<div>
+				<h1>Stephen Boettcher</h1>
+				<p class="role">Full-Stack Software Engineer</p>
+			</div>
+			<address class="align-right">
+				<a href="tel:+18018244030">(801) 824-4030</a><br>
+				<a href="mailto:improvshark@gmail.com">improvshark@gmail.com</a>
+			</address>
 		</div>
 		<p>I find fulfillment in designing and implementing elegant solutions and in helping my team handle complex issues. I strive to expand my expertise and increase knowledge through research and self-directed study. <br>I believe that open communication and self-motivation are key to success as part of a development team.</p>
 	</header>
@@ -35,120 +38,88 @@
 <div class="sub-section">
 	<header class="flex-space-between">
 		<h3>Senior Software Engineer, <i>Chargezoom</i></h3>
-		<h3 class="align-right">
-			Dec 2024 - Present
-		</h3>
+		<p class="dates"><time datetime="2024-12">Dec 2024</time> - Present</p>
 	</header>
-	<p></p>
+	
 	<ul>
-		
 		<li>Built an MCP, allowing my team to create more secure AI-powered tools and features, then used it to establish a comprehensive dunning system, including an AI-driven scheduler and email generator.</li>
-		
 		<li>Led the evolution of our team’s developer environment by using Skaffold to replicate our Kubernetes cluster on local machines, reducing the time requirement for each development cycle.</li>
-		
 		<li>Responsible for the integration of custom NetSuite bundle, requiring involvement in every step of the payment pathway from invoicing and payment links to PCI compliance and receipts. </li>
-		
 	</ul>
 </div>
 
 <div class="sub-section">
 	<header class="flex-space-between">
 		<h3>Senior Full Stack Software Developer, <i>Malouf Companies</i></h3>
-		<h3 class="align-right">
-			Feb 2021 - Nov 2024
-		</h3>
+		<p class="dates"><time datetime="2021-02">Feb 2021</time> - <time datetime="2024-11">Nov 2024</time></p>
 	</header>
-	<p></p>
+	
 	<ul>
-		
 		<li>Orchestrated a small team to develop a new integration for managing and processing EDI data</li>
-		
 		<li>Developed an AWS Lambda-powered browser rendering system for email and label generation, integrated with multiple PHP applications.</li>
-		
 		<li>Designed tools to assess codebase usage, identifying and eliminating redundant or unused code.</li>
-		
 		<li>Conducted in-depth audits and remediation of security vulnerabilities.</li>
-		
 		<li>Introduced and maintained critical monitoring tools like Grafana and Sentry, enhancing system stability and operational insights.</li>
-		
 		<li>Created and maintained external service libraries, facilitating integrations with EDI, JSON, XML, and various APIs.</li>
-		
 	</ul>
 </div>
 
 <div class="sub-section">
 	<header class="flex-space-between">
 		<h3>Senior Software Engineer, <i>Lightning Kite</i></h3>
-		<h3 class="align-right">
-			Nov 2018 - Feb 2021
-		</h3>
+		<p class="dates"><time datetime="2018-11">Nov 2018</time> - <time datetime="2021-02">Feb 2021</time></p>
 	</header>
-	<p></p>
+	
 	<ul>
-		
 		<li>Built a subscription platform for training videos and other CMS content using Django and integration with the Stripe payment processor.</li>
-		
 		<li>Helped team members improve their quality of work through in-depth code review, effective sprint planning, and documentation of standards and procedures.</li>
-		
 		<li>Worked on code inherited from another company, building environments and creating documentation to make it easily accessible to the rest of my team.</li>
-		
 		<li>Integrated with third-party APIs with varying levels of documentation.</li>
-		
 		<li>Used Docker to ease transition between projects and create a cohesive development environment.</li>
-		
 	</ul>
 </div>
 
 <div class="sub-section">
 	<header class="flex-space-between">
 		<h3>Web Developer, <i>The Hut Group</i></h3>
-		<h3 class="align-right">
-			Feb 2017 - Nov 2018
-		</h3>
+		<p class="dates"><time datetime="2017-02">Feb 2017</time> - <time datetime="2018-11">Nov 2018</time></p>
 	</header>
-	<p></p>
+	
 	<ul>
-		
 		<li>Orchestrated the transition from a traditional LAMP Stack server to a scalable container-based Docker solution with an eye toward implementing a Kubernetes infrastructure.</li>
-		
 		<li>Developed and implemented an OpenID Connect SSO using Laravel.</li>
-		
 	</ul>
 </div>
 
 	</section>
 	<section>
 		<h2>Education</h2>
-		 
+		
 		<div class="flex-space-between">
-			<h3>
-				Utah State University, <small><i>Computer Science Major, Art Minor</i></small>
-			</h3>
-			<h3>Aug 2012 - May 2015</h3>
+			<h3>Utah State University, <small><i>Computer Science Major, Art Minor</i></small></h3>
+			<p class="dates"><time datetime="2012-08">Aug 2012</time> - <time datetime="2015-05">May 2015</time></p>
 		</div>
-		  
+		
 		<div class="flex-space-between">
-			<h3>
-				Snow College, <small><i>Art Major</i></small>
-			</h3>
-			<h3>Aug 2010 - May 2012</h3>
+			<h3>Snow College, <small><i>Art Major</i></small></h3>
+			<p class="dates"><time datetime="2010-08">Aug 2010</time> - <time datetime="2012-05">May 2012</time></p>
 		</div>
-		   
+		
 	</section>
 	<section>
 		<h2>Skills and Qualifications</h2>
-		<div class="grid">
+		<dl class="grid">
 			
-			<h3><b>Software and Tools</b></h3>
-			<p>Docker, Laravel, Django, React, Vue, Node, K8s, AWS</p>
+			<dt>Software and Tools</dt>
+			<dd>Docker, Laravel, Django, React, Vue, Node, K8s, AWS</dd>
 			
-			<h3><b>Languages</b></h3>
-			<p>TypeScript, Python, PHP, Go, SQL, C++, C#, Java, Lua</p>
+			<dt>Languages</dt>
+			<dd>TypeScript, Python, PHP, Go, SQL, C++, C#, Java, Lua</dd>
 			
-			<h3><b>Operating Systems</b></h3>
-			<p>Ubuntu, Debian, Manjaro/Arch, Microsoft Windows</p>
+			<dt>Operating Systems</dt>
+			<dd>Ubuntu, Debian, Manjaro/Arch, Microsoft Windows</dd>
 			
-		</div>
+		</dl>
 	</section>
 </article>
 
